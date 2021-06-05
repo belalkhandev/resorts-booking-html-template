@@ -1,0 +1,29 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $font_primary;
+    font-size: $font_default_size;
+    font-weight: $font_default_weight;
+    line-height: $font_default_line_height;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, 
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

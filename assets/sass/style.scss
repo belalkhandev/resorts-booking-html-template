@@ -1,0 +1,36 @@
+/*
+    Project: Reosrt & Hotel Booking HTML Template
+    Version: 0.1
+    Date Created: 06/06/2021
+    Last Updated: 06/06/2021
+    Author: Belal khan
+    Website: https://github.com/belalkhandev
+    Email: belalkhan.dev@gmail.com
+*/
+
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/functions';
+@import './utils/helpers';
+
+@import './base/reset';
+@import './base/default';
+@import './base/typography';
+
+@import './components/button';
+@import './components/carousel';
+@import './components/dropdown';
+@import './components/dropdown';
+
+@import './layout/grid';
+@import './layout/box';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/sidebar';
+@import './layout/forms';
+@import './layout/footer';
+
+@import './pages/home'
